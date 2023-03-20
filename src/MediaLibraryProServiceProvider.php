@@ -1,6 +1,6 @@
 <?php
 
-namespace AlgorizaTeam\MediaLibraryPro;
+namespace Spatie\MediaLibraryPro;
 
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Http\Request;
@@ -9,15 +9,15 @@ use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Livewire\Livewire;
-use AlgorizaTeam\MediaLibraryPro\Commands\DeleteTemporaryUploadsCommand;
-use AlgorizaTeam\MediaLibraryPro\Http\Components\MediaLibraryAttachmentComponent;
-use AlgorizaTeam\MediaLibraryPro\Http\Components\MediaLibraryCollectionComponent;
-use AlgorizaTeam\MediaLibraryPro\Http\Controllers\MediaLibraryPostS3Controller;
-use AlgorizaTeam\MediaLibraryPro\Http\Controllers\MediaLibraryUploadController;
-use AlgorizaTeam\MediaLibraryPro\Http\Livewire\LivewireMediaLibraryComponent;
-use AlgorizaTeam\MediaLibraryPro\Http\Livewire\LivewireUploaderComponent;
-use AlgorizaTeam\MediaLibraryPro\Models\TemporaryUpload;
-use AlgorizaTeam\MediaLibraryPro\Support\TemporaryUploadPathGenerator;
+use Spatie\MediaLibraryPro\Commands\DeleteTemporaryUploadsCommand;
+use Spatie\MediaLibraryPro\Http\Components\MediaLibraryAttachmentComponent;
+use Spatie\MediaLibraryPro\Http\Components\MediaLibraryCollectionComponent;
+use Spatie\MediaLibraryPro\Http\Controllers\MediaLibraryPostS3Controller;
+use Spatie\MediaLibraryPro\Http\Controllers\MediaLibraryUploadController;
+use Spatie\MediaLibraryPro\Http\Livewire\LivewireMediaLibraryComponent;
+use Spatie\MediaLibraryPro\Http\Livewire\LivewireUploaderComponent;
+use Spatie\MediaLibraryPro\Models\TemporaryUpload;
+use Spatie\MediaLibraryPro\Support\TemporaryUploadPathGenerator;
 
 class MediaLibraryProServiceProvider extends ServiceProvider
 {
@@ -93,7 +93,7 @@ class MediaLibraryProServiceProvider extends ServiceProvider
             ];
         });
 
-        Route::resource('mediaLibrary', function (string $baseUrl = 'media-library-pro') {
+        Route::macro('mediaLibrary', function (string $baseUrl = 'media-library-pro') {
             Route::prefix($baseUrl)->group(function () {
                 if (config('media-library.enable_vapor_uploads')) {
                     Route::post("post-s3", '\\' . MediaLibraryPostS3Controller::class)
