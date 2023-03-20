@@ -93,7 +93,7 @@ class MediaLibraryProServiceProvider extends ServiceProvider
             ];
         });
 
-        Route::macro('mediaLibrary', function (string $baseUrl = 'media-library-pro') {
+        Route::resource('mediaLibrary', function (string $baseUrl = 'media-library-pro') {
             Route::prefix($baseUrl)->group(function () {
                 if (config('media-library.enable_vapor_uploads')) {
                     Route::post("post-s3", '\\' . MediaLibraryPostS3Controller::class)
