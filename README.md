@@ -1,37 +1,40 @@
-# Front end components for Laravel Media Library 
+## Laravel Media Library Pro Demo App
 
-![run-tests](https://github.com/spatie/laravel-medialibrary-pro/workflows/run-tests/badge.svg)
+![Dusk](https://github.com/spatie/laravel-medialibrary-pro-app/workflows/Dusk/badge.svg)
 
-[Media Library Pro](http://medialibrary.pro) is a paid add-on package that offers Blade, Vue, and React components to upload files to your application.
+This repo contains a Laravel project to demonstrate to possibilities of [Laravel Media Library Pro](https://medialibrary.pro).
 
-Media Library Pro ships with two components for every environment: an attachment component, and a collection component.
+## Getting started
 
-The attachment component can upload one or more files with little or no extra information. It's is a lightweight solution for small bits of UI like avatar fields or message attachments.
+In order to use this app you should have [a Media Library Pro license](https://spatie.be/products/media-library-pro).
 
-![Screenshot of the attachment component](https://spatie.be/docs/laravel-medialibrary/v10/images/pro/attachment.png)
+After you clone the repo, perform these steps:
 
-The collection component can upload multiple files with custom properties. Use the collection component shines when you need to manage media, for example in admin panels.
-
-![Screenshot of the attachment component](https://spatie.be/docs/laravel-medialibrary/v10/images/pro/collection.png)
+- copy `env.example` to `.env` and fill in values that makes sense for your environment
+- create a `auth.json` file in the root of the project and put your media library pro license in there (more info in the docs)
+- run `composer install`
+- run `yarn` and `yarn run dev` (or the npm equivalent)
+- run `php artisan migrate`
+- browse to the project. (when using valet: visit `http://laravel-medialibrary-pro-app.test`)
+- enjoy!
 
 ## Documentation
 
-You'll find the documentation on [our documentation site](https://spatie.be/docs/laravel-medialibrary/v10/handling-uploads-with-media-library-pro/introduction).
+You can find the full documentation on Media Library Pro [on our website](https://spatie.be/docs/laravel-medialibrary/v9/handling-uploads-with-media-library-pro/introduction).
 
-If you've found a bug regarding security please mail [security@spatie.be](mailto:security@spatie.be) instead of using the issue tracker.
+## Support us
 
-## Testing
+[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/laravel-medialibrary.jpg?t=2" width="419px" />](https://spatie.be/github-ad-click/laravel-medialibrary)
 
-You can run the tests with:
+We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
 
-```bash
-vendor/bin/phpunit
-```
+We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
 
-### Changelog
+## Local development
 
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+These instructions should only be used by Spatie team members that need to work on the assets.
 
-## Security
-
-If you discover any security related issues, please email [security@spatie.be](mailto:security@spatie.be) instead of using the issue tracker.
+- In a separate folder, run git clone git@github.com:spatie/medialibrary-pro-js.git
+- In that project, run yarn setup
+- When that command has finished successfully, yarn setup in this project
+- Go to http://laravel-medialibrary-pro-app.test/react or http://laravel-medialibrary-pro-app.test/vue to try it out
