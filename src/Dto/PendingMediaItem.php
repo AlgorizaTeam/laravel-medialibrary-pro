@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Dto;
+namespace AlgorizaTeam\MediaLibraryPro\Dto;
 
 use Exception;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Spatie\MediaLibraryPro\Models\TemporaryUpload;
+use AlgorizaTeam\MediaLibraryPro\Models\TemporaryUpload;
 
 class PendingMediaItem
 {

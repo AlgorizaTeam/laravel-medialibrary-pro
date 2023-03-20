@@ -1,13 +1,13 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Http\Livewire;
+namespace AlgorizaTeam\MediaLibraryPro\Http\Livewire;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Illuminate\Validation\ValidationException;
 use Livewire\Component;
 use Livewire\WithFileUploads;
-use Spatie\MediaLibraryPro\Actions\ConvertLivewireUploadToMediaAction;
+use AlgorizaTeam\MediaLibraryPro\Actions\ConvertLivewireUploadToMediaAction;
 
 class LivewireUploaderComponent extends Component
 {

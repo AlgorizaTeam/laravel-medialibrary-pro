@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Dto;
+namespace AlgorizaTeam\MediaLibraryPro\Dto;
 
 use Illuminate\Support\Str;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Models;
+namespace AlgorizaTeam\MediaLibraryPro\Models;
 
 use Carbon\Carbon;
 use Closure;
@@ -13,8 +13,8 @@ use Spatie\MediaLibrary\Conversions\Conversion;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
-use Spatie\MediaLibraryPro\Exceptions\CouldNotAddUpload;
-use Spatie\MediaLibraryPro\Exceptions\TemporaryUploadDoesNotBelongToCurrentSession;
+use AlgorizaTeam\MediaLibraryPro\Exceptions\CouldNotAddUpload;
+use AlgorizaTeam\MediaLibraryPro\Exceptions\TemporaryUploadDoesNotBelongToCurrentSession;
 
 class TemporaryUpload extends Model implements HasMedia
 {
@@ -107,7 +107,7 @@ class TemporaryUpload extends Model implements HasMedia
         string $uuid,
         string $name
     ): self {
-        /** @var \Spatie\MediaLibraryPro\Models\TemporaryUpload $temporaryUpload */
+        /** @var \AlgorizaTeam\MediaLibraryPro\Models\TemporaryUpload $temporaryUpload */
         $temporaryUpload = static::create([
             'session_id' => $sessionId,
         ]);
@@ -132,7 +132,7 @@ class TemporaryUpload extends Model implements HasMedia
         string $name,
         string $diskName
     ): self {
-        /** @var \Spatie\MediaLibraryPro\Models\TemporaryUpload $temporaryUpload */
+        /** @var \AlgorizaTeam\MediaLibraryPro\Models\TemporaryUpload $temporaryUpload */
         $temporaryUpload = static::create([
             'session_id' => $sessionId,
         ]);

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\MediaLibraryPro;
+namespace AlgorizaTeam\MediaLibraryPro;
 
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Rules\ItemRules;
+namespace AlgorizaTeam\MediaLibraryPro\Rules\ItemRules;
 
 use Illuminate\Support\Facades\Validator as ValidatorFacade;
 use Illuminate\Validation\Validator;

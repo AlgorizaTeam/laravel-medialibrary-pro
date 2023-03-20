@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Http\Livewire\Concerns;
+namespace AlgorizaTeam\MediaLibraryPro\Http\Livewire\Concerns;
 
 /** @mixin \Livewire\Component */
 trait WithMedia

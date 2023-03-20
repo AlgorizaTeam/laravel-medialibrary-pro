@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Commands;
+namespace AlgorizaTeam\MediaLibraryPro\Commands;
 
 use Illuminate\Console\Command;
 

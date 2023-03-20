@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Request;
+namespace AlgorizaTeam\MediaLibraryPro\Request;
 
 use Illuminate\Foundation\Http\FormRequest;
 

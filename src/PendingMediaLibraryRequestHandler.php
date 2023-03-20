@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\MediaLibraryPro;
+namespace AlgorizaTeam\MediaLibraryPro;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 use Spatie\MediaLibrary\MediaCollections\FileAdderFactory;
-use Spatie\MediaLibraryPro\Dto\MediaLibraryRequestItem;
-use Spatie\MediaLibraryPro\Dto\PendingMediaItem;
+use AlgorizaTeam\MediaLibraryPro\Dto\MediaLibraryRequestItem;
+use AlgorizaTeam\MediaLibraryPro\Dto\PendingMediaItem;
 
 class PendingMediaLibraryRequestHandler
 {

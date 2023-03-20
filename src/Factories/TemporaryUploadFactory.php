@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Factories;
+namespace AlgorizaTeam\MediaLibraryPro\Factories;
 
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use Spatie\MediaLibraryPro\Models\TemporaryUpload;
+use AlgorizaTeam\MediaLibraryPro\Models\TemporaryUpload;
 
 class TemporaryUploadFactory
 {

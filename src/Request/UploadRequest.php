@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Request;
+namespace AlgorizaTeam\MediaLibraryPro\Request;
 
 use Illuminate\Foundation\Http\FormRequest;
-use Spatie\MediaLibraryPro\Rules\FileExtensionRule;
-use Spatie\MediaLibraryPro\Support\DefaultAllowedExtensions;
+use AlgorizaTeam\MediaLibraryPro\Rules\FileExtensionRule;
+use AlgorizaTeam\MediaLibraryPro\Support\DefaultAllowedExtensions;
 
 class UploadRequest extends FormRequest
 {

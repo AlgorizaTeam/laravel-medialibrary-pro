@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Rules\ItemRules;
+namespace AlgorizaTeam\MediaLibraryPro\Rules\ItemRules;
 
 class WidthBetweenRule extends MediaItemRule
 {

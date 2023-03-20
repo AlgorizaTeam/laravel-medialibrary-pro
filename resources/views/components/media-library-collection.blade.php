@@ -23,7 +23,7 @@ Livewire component where the collection is used in.
 --}}
 @php
     if (isset($_instance)) {
-        if (in_array(\Spatie\MediaLibraryPro\Http\Livewire\Concerns\WithMedia::class, class_uses_recursive($_instance))) {
+        if (in_array(\AlgorizaTeam\MediaLibraryPro\Http\Livewire\Concerns\WithMedia::class, class_uses_recursive($_instance))) {
             if ($_instance->$name === null) {
                 $_instance->onMediaChanged($name, $media);
             }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Rules\ItemRules;
+namespace AlgorizaTeam\MediaLibraryPro\Rules\ItemRules;
 
 use Illuminate\Contracts\Validation\Rule;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;

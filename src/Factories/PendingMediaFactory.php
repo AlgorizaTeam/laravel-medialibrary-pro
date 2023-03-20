@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Factories;
+namespace AlgorizaTeam\MediaLibraryPro\Factories;
 
-use Spatie\MediaLibraryPro\Dto\PendingMediaItem;
+use AlgorizaTeam\MediaLibraryPro\Dto\PendingMediaItem;
 
 class PendingMediaFactory
 {

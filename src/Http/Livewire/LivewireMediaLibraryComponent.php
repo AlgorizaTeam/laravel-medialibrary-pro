@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Http\Livewire;
+namespace AlgorizaTeam\MediaLibraryPro\Http\Livewire;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\MessageBag;
 use Illuminate\Support\ViewErrorBag;
 use Livewire\Component;
-use Spatie\MediaLibraryPro\Dto\ViewMediaItem;
+use AlgorizaTeam\MediaLibraryPro\Dto\ViewMediaItem;
 
 class LivewireMediaLibraryComponent extends Component
 {

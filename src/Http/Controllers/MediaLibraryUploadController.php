@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Http\Controllers;
+namespace AlgorizaTeam\MediaLibraryPro\Http\Controllers;
 
 use Illuminate\Validation\ValidationException;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
-use Spatie\MediaLibraryPro\Models\TemporaryUpload;
-use Spatie\MediaLibraryPro\Request\UploadRequest;
+use AlgorizaTeam\MediaLibraryPro\Models\TemporaryUpload;
+use AlgorizaTeam\MediaLibraryPro\Request\UploadRequest;
 use Throwable;
 
 class MediaLibraryUploadController

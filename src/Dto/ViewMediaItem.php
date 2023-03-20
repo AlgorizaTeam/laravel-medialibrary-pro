@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Dto;
+namespace AlgorizaTeam\MediaLibraryPro\Dto;
 
 use Carbon\Carbon;
 use Illuminate\Support\Arr;

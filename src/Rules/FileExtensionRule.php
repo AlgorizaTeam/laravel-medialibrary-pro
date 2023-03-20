@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Rules;
+namespace AlgorizaTeam\MediaLibraryPro\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 

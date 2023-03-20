@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Http\Controllers;
+namespace AlgorizaTeam\MediaLibraryPro\Http\Controllers;
 
 use Illuminate\Support\Facades\Storage;
 use Spatie\MediaLibrary\Conversions\FileManipulator;
 use Spatie\MediaLibrary\Support\PathGenerator\PathGeneratorFactory;
-use Spatie\MediaLibraryPro\Request\CreateTemporaryUploadFromDirectS3UploadRequest;
+use AlgorizaTeam\MediaLibraryPro\Request\CreateTemporaryUploadFromDirectS3UploadRequest;
 
 class MediaLibraryPostS3Controller
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Http\Components;
+namespace AlgorizaTeam\MediaLibraryPro\Http\Components;
 
 use Illuminate\View\Component;
 

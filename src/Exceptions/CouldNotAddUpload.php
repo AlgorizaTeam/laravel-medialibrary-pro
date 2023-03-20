@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Exceptions;
+namespace AlgorizaTeam\MediaLibraryPro\Exceptions;
 
 use Exception;
 

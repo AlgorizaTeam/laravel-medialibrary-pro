@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\MediaLibraryPro;
+namespace AlgorizaTeam\MediaLibraryPro;
 
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Http\Request;
@@ -9,15 +9,15 @@ use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Livewire\Livewire;
-use Spatie\MediaLibraryPro\Commands\DeleteTemporaryUploadsCommand;
-use Spatie\MediaLibraryPro\Http\Components\MediaLibraryAttachmentComponent;
-use Spatie\MediaLibraryPro\Http\Components\MediaLibraryCollectionComponent;
-use Spatie\MediaLibraryPro\Http\Controllers\MediaLibraryPostS3Controller;
-use Spatie\MediaLibraryPro\Http\Controllers\MediaLibraryUploadController;
-use Spatie\MediaLibraryPro\Http\Livewire\LivewireMediaLibraryComponent;
-use Spatie\MediaLibraryPro\Http\Livewire\LivewireUploaderComponent;
-use Spatie\MediaLibraryPro\Models\TemporaryUpload;
-use Spatie\MediaLibraryPro\Support\TemporaryUploadPathGenerator;
+use AlgorizaTeam\MediaLibraryPro\Commands\DeleteTemporaryUploadsCommand;
+use AlgorizaTeam\MediaLibraryPro\Http\Components\MediaLibraryAttachmentComponent;
+use AlgorizaTeam\MediaLibraryPro\Http\Components\MediaLibraryCollectionComponent;
+use AlgorizaTeam\MediaLibraryPro\Http\Controllers\MediaLibraryPostS3Controller;
+use AlgorizaTeam\MediaLibraryPro\Http\Controllers\MediaLibraryUploadController;
+use AlgorizaTeam\MediaLibraryPro\Http\Livewire\LivewireMediaLibraryComponent;
+use AlgorizaTeam\MediaLibraryPro\Http\Livewire\LivewireUploaderComponent;
+use AlgorizaTeam\MediaLibraryPro\Models\TemporaryUpload;
+use AlgorizaTeam\MediaLibraryPro\Support\TemporaryUploadPathGenerator;
 
 class MediaLibraryProServiceProvider extends ServiceProvider
 {

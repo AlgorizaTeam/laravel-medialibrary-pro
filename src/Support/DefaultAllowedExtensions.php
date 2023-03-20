@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\MediaLibraryPro\Support;
+namespace AlgorizaTeam\MediaLibraryPro\Support;
 
 class DefaultAllowedExtensions
 {
