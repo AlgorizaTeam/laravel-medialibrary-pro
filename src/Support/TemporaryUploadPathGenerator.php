@@ -2,8 +2,8 @@
 
 namespace AlgorizaTeam\MediaLibraryPro\Support;
 
-use Spatie\MediaLibrary\MediaCollections\Models\Media;
-use Spatie\MediaLibrary\Support\PathGenerator\PathGenerator;
+use AlgorizaTeam\MediaLibrary\MediaCollections\Models\Media;
+use AlgorizaTeam\MediaLibrary\Support\PathGenerator\PathGenerator;
 
 class TemporaryUploadPathGenerator implements PathGenerator
 {
