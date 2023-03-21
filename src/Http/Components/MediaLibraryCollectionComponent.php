@@ -3,7 +3,7 @@
 namespace AlgorizaTeam\MediaLibraryPro\Http\Components;
 
 use Illuminate\View\Component;
-use Spatie\MediaLibrary\HasMedia;
+use AlgorizaTeam\MediaLibrary\HasMedia;
 use AlgorizaTeam\MediaLibraryPro\WithAccessingMedia;
 
 class MediaLibraryCollectionComponent extends Component

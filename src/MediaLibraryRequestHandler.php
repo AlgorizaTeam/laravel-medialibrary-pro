@@ -4,7 +4,7 @@ namespace AlgorizaTeam\MediaLibraryPro;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
-use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use AlgorizaTeam\MediaLibrary\MediaCollections\Models\Media;
 use AlgorizaTeam\MediaLibraryPro\Dto\MediaLibraryRequestItem;
 use AlgorizaTeam\MediaLibraryPro\Dto\PendingMediaItem;
 

@@ -4,7 +4,7 @@
     </div>
     @if ($mediaItem->size)
         <div class="media-library-property">
-            {{ \Spatie\MediaLibrary\Support\File::getHumanReadableSize($mediaItem->size) }}
+            {{ \AlgorizaTeam\MediaLibrary\Support\File::getHumanReadableSize($mediaItem->size) }}
         </div>
     @endif
     <div class="media-library-property">
