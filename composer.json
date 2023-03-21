@@ -35,12 +35,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\MediaLibraryPro\\": "src"
+            "AlgorizaTeam\\MediaLibraryPro\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\MediaLibraryPro\\Tests\\": "tests"
+            "AlgorizaTeam\\MediaLibraryPro\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -57,7 +57,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\MediaLibraryPro\\MediaLibraryProServiceProvider"
+                "AlgorizaTeam\\MediaLibraryPro\\MediaLibraryProServiceProvider"
             ]
         }
     }
