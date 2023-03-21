@@ -3,8 +3,8 @@
 namespace AlgorizaTeam\MediaLibraryPro\Rules\GroupRules;
 
 use Illuminate\Contracts\Validation\Rule;
-use Spatie\MediaLibrary\MediaCollections\Models\Media;
-use Spatie\MediaLibrary\Support\File;
+use AlgorizaTeam\MediaLibrary\MediaCollections\Models\Media;
+use AlgorizaTeam\MediaLibrary\Support\File;
 
 class MinTotalSizeInKbRule implements Rule
 {
