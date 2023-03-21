@@ -3,8 +3,8 @@
 namespace AlgorizaTeam\MediaLibraryPro\Http\Controllers;
 
 use Illuminate\Support\Facades\Storage;
-use AlgorizaTeam\MediaLibrary\Conversions\FileManipulator;
-use AlgorizaTeam\MediaLibrary\Support\PathGenerator\PathGeneratorFactory;
+use Spatie\MediaLibrary\Conversions\FileManipulator;
+use Spatie\MediaLibrary\Support\PathGenerator\PathGeneratorFactory;
 use AlgorizaTeam\MediaLibraryPro\Request\CreateTemporaryUploadFromDirectS3UploadRequest;
 
 class MediaLibraryPostS3Controller
@@ -21,7 +21,7 @@ class MediaLibraryPostS3Controller
             'session_id' => session()->getId(),
         ]);
 
-        /** @var \AlgorizaTeam\MediaLibrary\MediaCollections\Models\Media $media */
+        /** @var \Spatie\MediaLibrary\MediaCollections\Models\Media $media */
         $media = $temporaryUpload->media()->create([
            'name' => $request->name,
            'uuid' => $request->uuid,
@@ -37,7 +37,7 @@ class MediaLibraryPostS3Controller
            'size' => $request->size,
        ]);
 
-        /** @var \AlgorizaTeam\MediaLibrary\Support\PathGenerator\PathGenerator $pathGenerator */
+        /** @var \Spatie\MediaLibrary\Support\PathGenerator\PathGenerator $pathGenerator */
         $pathGenerator = PathGeneratorFactory::create($media);
 
         Storage::disk($diskName)->copy(

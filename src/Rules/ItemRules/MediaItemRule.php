@@ -3,7 +3,7 @@
 namespace AlgorizaTeam\MediaLibraryPro\Rules\ItemRules;
 
 use Illuminate\Contracts\Validation\Rule;
-use AlgorizaTeam\MediaLibrary\MediaCollections\Models\Media;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
 abstract class MediaItemRule implements Rule
 {

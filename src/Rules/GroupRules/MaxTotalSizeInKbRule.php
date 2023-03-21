@@ -3,8 +3,8 @@
 namespace AlgorizaTeam\MediaLibraryPro\Rules\GroupRules;
 
 use Illuminate\Contracts\Validation\Rule;
-use AlgorizaTeam\MediaLibrary\MediaCollections\Models\Media;
-use AlgorizaTeam\MediaLibrary\Support\File;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
+use Spatie\MediaLibrary\Support\File;
 
 class MaxTotalSizeInKbRule implements Rule
 {

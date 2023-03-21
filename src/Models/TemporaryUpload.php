@@ -8,10 +8,10 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\UploadedFile;
 use Spatie\Image\Manipulations;
-use AlgorizaTeam\MediaLibrary\Conversions\Conversion;
-use AlgorizaTeam\MediaLibrary\HasMedia;
-use AlgorizaTeam\MediaLibrary\InteractsWithMedia;
-use AlgorizaTeam\MediaLibrary\MediaCollections\Models\Media;
+use Spatie\MediaLibrary\Conversions\Conversion;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use AlgorizaTeam\MediaLibraryPro\Exceptions\CouldNotAddUpload;
 use AlgorizaTeam\MediaLibraryPro\Exceptions\TemporaryUploadDoesNotBelongToCurrentSession;
 

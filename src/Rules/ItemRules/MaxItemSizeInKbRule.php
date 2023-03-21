@@ -2,7 +2,7 @@
 
 namespace AlgorizaTeam\MediaLibraryPro\Rules\ItemRules;
 
-use AlgorizaTeam\MediaLibrary\Support\File;
+use Spatie\MediaLibrary\Support\File;
 
 class MaxItemSizeInKbRule extends MediaItemRule
 {
