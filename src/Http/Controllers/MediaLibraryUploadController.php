@@ -30,7 +30,7 @@ class MediaLibraryUploadController
             throw ValidationException::withMessages(['file' => 'Could not handle upload. Make sure you are uploading a valid file.']);
         }
 
-        /** @var \AlgorizaTeam\MediaLibrary\MediaCollections\Models\Media $media */
+        /** @var \Spatie\MediaLibrary\MediaCollections\Models\Media $media */
         $media = $temporaryUpload->getFirstMedia();
 
         return response()->json([

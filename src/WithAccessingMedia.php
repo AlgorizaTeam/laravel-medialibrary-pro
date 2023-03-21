@@ -2,8 +2,8 @@
 
 namespace AlgorizaTeam\MediaLibraryPro;
 
-use AlgorizaTeam\MediaLibrary\HasMedia;
-use AlgorizaTeam\MediaLibrary\MediaCollections\Models\Media;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
 trait WithAccessingMedia
 {

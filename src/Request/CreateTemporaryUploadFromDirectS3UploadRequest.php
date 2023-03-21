@@ -22,7 +22,7 @@ class CreateTemporaryUploadFromDirectS3UploadRequest extends FormRequest
     {
         $mediaModelClass = config('media-library.media_model');
 
-        /** @var \AlgorizaTeam\MediaLibrary\MediaCollections\Models\Media $mediaModel */
+        /** @var \Spatie\MediaLibrary\MediaCollections\Models\Media $mediaModel */
         $mediaModel = new $mediaModelClass;
 
         if ($mediaModel->getConnectionName() === 'default') {
@@ -36,7 +36,7 @@ class CreateTemporaryUploadFromDirectS3UploadRequest extends FormRequest
     {
         $mediaModelClass = config('media-library.media_model');
 
-        /** @var \AlgorizaTeam\MediaLibrary\MediaCollections\Models\Media $mediaModel */
+        /** @var \Spatie\MediaLibrary\MediaCollections\Models\Media $mediaModel */
         $mediaModel = new $mediaModelClass;
 
         return $mediaModel->getTable();

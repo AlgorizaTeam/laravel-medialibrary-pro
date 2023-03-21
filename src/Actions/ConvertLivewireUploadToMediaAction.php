@@ -6,7 +6,7 @@ use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Str;
 use Livewire\FileUploadConfiguration;
 use Livewire\TemporaryUploadedFile;
-use AlgorizaTeam\MediaLibrary\MediaCollections\Models\Media;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use AlgorizaTeam\MediaLibraryPro\Models\TemporaryUpload;
 
 class ConvertLivewireUploadToMediaAction
