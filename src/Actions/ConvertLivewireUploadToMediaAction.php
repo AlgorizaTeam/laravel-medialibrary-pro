@@ -32,7 +32,8 @@ class ConvertLivewireUploadToMediaAction
         $uploadedFile = new UploadedFile($livewireUpload->path(), $livewireUpload->getClientOriginalName());
 
         /** @var class-string<TemporaryUpload> $temporaryUploadModelClass */
-        $temporaryUploadModelClass = config('media-library.temporary_upload_model');
+        //$temporaryUploadModelClass = config('media-library.temporary_upload_model');
+        $temporaryUploadModelClass = TemporaryUpload::class;
 
         $temporaryUpload = $temporaryUploadModelClass::createForFile(
             $uploadedFile,
